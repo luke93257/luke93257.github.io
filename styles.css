@@ -1,0 +1,15 @@
+body {
+    background: gray
+}
+
+.assignment{
+    display:flex;
+    padding:10px; 
+    background: lightcoral;
+    margin: 100px;
+}
+
+.assignment{
+    width: 2500px;
+    padding:10px;
+}
