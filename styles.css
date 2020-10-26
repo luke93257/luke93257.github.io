@@ -1,15 +1,34 @@
 body {
-    background: gray
+    background: #D7D7D9
 }
-
-.assignment{
+.assignments{
     display:flex;
+    flex-wrap:wrap;
+}
+.assignment{
+    width:10%;
     padding:10px; 
-    background: lightcoral;
+    margin:10px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    background:#734230;
     margin: 100px;
+    box-shadow: 5px 8px tan;
+}
+.assignment img{
+    border:2px solid tan;
+    margin-right:20px;
+    border-radius:5px;
+    display:block;
+    margin:auto;
 }
 
 .assignment{
     width: 2500px;
     padding:10px;
+}
+
+a {
+    text-decoration:none;
+    color:#D9B29C;
 }
